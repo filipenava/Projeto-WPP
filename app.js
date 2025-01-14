@@ -4,6 +4,7 @@ const wppconnect = require('@wppconnect-team/wppconnect');
 wppconnect
   .create({
     session: 'sessionName',
+    headless: false,  
     catchQR: (base64Qr, asciiQR) => {
       console.log(asciiQR); // Optional to log the QR in the terminal
       var matches = base64Qr.match(/^data:([A-Za-z-+\/]+);base64,(.+)$/),
