@@ -10,6 +10,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@wppconnect-team/wppconnect": "^1.32.4"
+    "@wppconnect-team/wppconnect": "^1.32.4",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^4.10.38",
+    "xls-to-json": "^2.1.1",
+    "xlsx": "^0.18.5",
+    "xlsx-populate": "^1.21.0"
   }
 }
